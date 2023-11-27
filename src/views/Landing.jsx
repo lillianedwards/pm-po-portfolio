@@ -1,9 +1,10 @@
+import React from 'react';
+import Header from '../components/Header';
+import Nav from '../components/Nav';
 
-import React from 'react'
-
-function Landing() {
+function Landing () {
   return (
-    <div>Landing</div>
+    <Header/>
   )
 }
 

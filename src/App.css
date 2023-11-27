@@ -110,3 +110,58 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+:root {
+  --font: 'Inter', sans-serif;
+  --background: #65805B;
+  --lightGreen: #A4C281;
+  --limeGreen: #9FB03B;
+  --tan: #E7E6D9;
+  --white: #FEFCFA;
+  --black: #303030;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: var(--background);
+  color: var(--white);
+  font-family: "Inter";
+}
+
+/* HEADER */
+#navContain {
+  display: flex;
+  justify-content: space-between;
+} 
+
+#navShow {
+  background-color: var(--tan);
+  margin: 10px;
+  height: 80px;
+  width: 80px;
+  border: none;
+
+}
+
+#headerBlob {
+  margin: 10px;
+  
+}
+
