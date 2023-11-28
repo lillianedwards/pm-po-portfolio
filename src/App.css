@@ -165,3 +165,42 @@ button:focus-visible {
   
 }
 
+/* NAV BAR */
+
+#navBack {
+  background: linear-gradient(335deg, #65805B 19.82%, #E7E6D9 82.75%);
+  font-family: "Inter";
+  display: flex;
+  align-items: center;
+}
+
+
+#navTitle {
+  color: var(--background);
+  font-weight: bold;
+  font-size: 35px;
+
+}
+#resumeLink {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: var(--white);
+  text-align: center;
+  width: 12rem;
+}
+.resumesvg {
+  margin-left: 10px;
+}
+
+#aboutLink {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  color: var(--background);
+  background-color: var(--white);
+  border-radius: 4px;
+
+}
+.aboutsvg {
+  margin-left: 10px;
+}
