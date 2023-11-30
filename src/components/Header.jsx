@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import Nav from "./Nav";
+import Nav from "./Scroll";
 import "../App.css";
 
 const Header = () => {
@@ -15,9 +15,9 @@ const Header = () => {
         <Button onClick={handleShow} id="navShow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="35"
-            height="35"
-            fill="#a36361"
+            width="50"
+            height="50"
+            fill="#9eaba2"
             className="bi bi-globe-americas"
             viewBox="0 0 16 16"
           >
@@ -31,9 +31,7 @@ const Header = () => {
           </Offcanvas.Header>
           <Offcanvas.Body id="navItems">
             <h2 id="resumeLink">Resume</h2>
-            <h2 id="aboutLink">
-              About
-            </h2>
+            <h2 id="aboutLink">About</h2>
             <h2 id="projectLink">Projects</h2>
             <h2 id="connectLink">Connect</h2>
           </Offcanvas.Body>

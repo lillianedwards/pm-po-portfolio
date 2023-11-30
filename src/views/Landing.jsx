@@ -1,11 +1,16 @@
-import React from 'react';
-import Header from '../components/Header';
-import Nav from '../components/Nav';
+import React from "react";
+import Header from "../components/Header";
+import Scroll from "../components/Scroll";
+import About from "../components/About";
 
-function Landing () {
+function Landing() {
   return (
-    <Header/>
-  )
+    <>
+      <Scroll/>
+      <Header />
+      <About />
+    </>
+  );
 }
 
-export default Landing
+export default Landing;

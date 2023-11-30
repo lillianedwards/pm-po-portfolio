@@ -114,6 +114,9 @@ button:focus-visible {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 
+
+
+
 :root {
   --font: 'Poppins', sans-serif;
   --maroon: #A36361;
@@ -139,7 +142,7 @@ button:focus-visible {
   padding: 0;
   font-size: 1rem;
   line-height: 1.5;
-  background-color: var(--coral);
+  background: rgba(232, 178, 152, 0.54);
   color: var(--maroon);
   font-family: var(--font);
 }
@@ -153,8 +156,6 @@ button:focus-visible {
 #navShow {
   background-color: var(--tan);
   margin: 10px;
-  height: 80px;
-  width: 80px;
   border: none;
 
 }
@@ -190,7 +191,11 @@ button:focus-visible {
   margin-left: 5.5rem;
 }
 
+/* ABOUT */
 
+h1 span {
+  font-weight: bold;
+}
 #aboutLink {
   margin-bottom: 20px;
   padding: 10px;
@@ -212,4 +217,54 @@ button:focus-visible {
   padding: 10px;
   text-align: center;
   color: var(--yellow);
+}
+
+#headerName {
+  margin: 10px;
+  font-size: 4rem;
+  color: var(--blue)
+
+}
+
+.introAndButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#projectBtnContain {}
+#projectButton {
+  border: none;
+  background-color: var(--light-blue);
+  color: var(--blue);
+  padding: 10px;
+}
+.introContain {
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+/* margin-left: 80px; */
+}
+
+.elevator h4 {
+  background-color: var(--pink);
+  color: var(--maroon);
+  padding: 1.5rem;
+}
+
+.infoSvg {
+  margin-right: 10px;
+
+}
+
+.iconContain {
+  margin-left: 10px;
+  text-align: left;
+
+
+  
+}
+
+p span {
+  font-style: italic;
 }
