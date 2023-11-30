@@ -112,17 +112,16 @@ button:focus-visible {
 } */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 
 :root {
-  --font: 'Inter', sans-serif;
-  --background: #65805B;
-  --lightGreen: #A4C281;
-  --limeGreen: #9FB03B;
-  --tan: #E7E6D9;
-  --white: #FEFCFA;
-  --black: #303030;
-
+  --font: 'Poppins', sans-serif;
+  --maroon: #A36361;
+  --pink: #d3a29d;
+  --coral: #e8b298;
+  --yellow: #EECC8c;
+  --light-blue: #BDD1C5;
+  --blue: #9eaba2;
 }
 
 * {
@@ -140,9 +139,9 @@ button:focus-visible {
   padding: 0;
   font-size: 1rem;
   line-height: 1.5;
-  background-color: var(--background);
-  color: var(--white);
-  font-family: "Inter";
+  background-color: var(--coral);
+  color: var(--maroon);
+  font-family: var(--font);
 }
 
 /* HEADER */
@@ -168,15 +167,15 @@ button:focus-visible {
 /* NAV BAR */
 
 #navBack {
-  background: linear-gradient(335deg, #65805B 19.82%, #E7E6D9 82.75%);
-  font-family: "Inter";
+  background: var(--blue);
+  font-family: var(--font);
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 
 #navTitle {
-  color: var(--background);
+  color: var(--light-blue);
   font-weight: bold;
   font-size: 35px;
 
@@ -184,23 +183,33 @@ button:focus-visible {
 #resumeLink {
   margin-bottom: 20px;
   padding: 10px;
-  color: var(--white);
+  color: var(--yellow);
   text-align: center;
+  background: rgba(189, 209, 197, 0.50);
   width: 12rem;
+  margin-left: 5.5rem;
 }
-.resumesvg {
-  margin-left: 10px;
-}
+
 
 #aboutLink {
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
-  color: var(--background);
-  background-color: var(--white);
-  border-radius: 4px;
-
+  color: var(--yellow);
 }
-.aboutsvg {
-  margin-left: 10px;
+
+
+#projectLink {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  color: var(--yellow);
+  
+}
+
+#connectLink {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  color: var(--yellow);
 }
